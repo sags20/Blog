@@ -1,7 +1,6 @@
 var tabsOptions = document.querySelectorAll("#menu a");
 var currentDisplay = document.querySelector(tabsOptions[0].getAttribute("href"));
 
-
 tabsOptions.forEach((element) =>{
     
     let content =  document.querySelector(element.getAttribute("href"));
